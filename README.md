@@ -18,9 +18,13 @@ There are many parameters involved, please feel free to play with option.py.
 
 Here are several examples:
  - To run the experiment on MNIST with 5 clients including 1 malicious client launching random attacks:
-   ```python main_handler_GPU_server.py --num_users 5 --malicious_client_number 1 --malicious_index 1 --dataset 'MNIST'```
+
+   ```python
+   python main_handler_GPU_server.py --num_users 5 --malicious_client_number 1 --malicious_index 1 --dataset 'MNIST'
+   
  - To run the experiment on CIFAR10 with 10 clients including 2 malicious clients launching history attacks for 100 epochs and 300 batch size:
-   ```python main_handler_GPU_server.py --num_users 10 --malicious_client_number21 --malicious_index 2 --dataset 'CIFAR10' --epochs 100 --batch_size 300```
+   ```python
+   python main_handler_GPU_server.py --num_users 10 --malicious_client_number21 --malicious_index 2 --dataset 'CIFAR10' --epochs 100 --batch_size 300
 
   ## Options
   The default values for various parameters parsed to the experiment are given in options.py. Details are given on some of those parameters:
