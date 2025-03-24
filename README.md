@@ -29,8 +29,8 @@ Here are several examples:
   ## Options
   The default values for various parameters parsed to the experiment are given in options.py. Details are given on some of those parameters:
 
- - `--num_users`: Number of clients, default 2.
- - `--epochs`: Number of epochs, default 10.
- - `--lr`: Learning rate, default 0.001.
- - `--batch_size`: Number of batch size, default 256.
- - `-malicious_client_number`: Number of malicious client, default 0.
+ - `--num_users`: number of clients, default 2.
+ - `--epochs`: number of epochs, default 10.
+ - `--lr`: learning rate, default 0.001.
+ - `--batch_size`: number of batch size, default 256.
+ - `-malicious_client_number`: number of the malicious client, default 0.
